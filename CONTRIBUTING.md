@@ -243,7 +243,9 @@ The labels are loosely grouped by their purpose, but it's not required that ever
 | `beginner` | Less complex issues which would be good first issues to work on for users who want to contribute. |
 | `more-information-needed` | More information needs to be collected about these problems or feature requests (e.g. steps to reproduce). |
 | `needs-reproduction` | Likely bugs, but haven't been reliably reproduced. |
-| `blocked` | Issues blocked on other issues. |
 | `duplicate` |  Issues which are duplicates of other issues, i.e. they have been reported before. |
 | `wontfix` | Admin has decided not to fix these issues for now, either because they're working as intended or for some other reason. |
 | `invalid` |  Issues which aren't valid (e.g. user errors). |
+
+[beginner]:https://github.com/djps/PhasedArrayRayleighIntegral/issues?q=is%3Aissue+is%3Aopen+label%3Abeginner
+[help-wanted]:https://github.com/djps/PhasedArrayRayleighIntegral/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
