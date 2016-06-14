@@ -1,8 +1,14 @@
 # Introduction
 
+This is a work in progress!
+
 ## Getting Code
 
+Code can be downloaded from [here](http://djps.github.io/PhasedArrayRayleighIntegral/)
+
 ## Installation
+
+Makefile in linux, with a c-compiler. 
 
 ## Documentation
 
