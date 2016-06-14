@@ -15,5 +15,4 @@
 
 ## References
 
-> H. T. O'Neil, "Theory of focusing radiators," J. Acoust. Soc. Am., vol. 21 (5), 1949, pp. 516-526.
-
+> H. T. O'Neil, "[Theory of focusing radiators](http://dx.doi.org/10.1121/1.1906542)" *J. Acoust. Soc. Am.*, vol. **21** (5), 1949, pp. 516-526. 
