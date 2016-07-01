@@ -8,7 +8,7 @@ CXX = $(CC)
 # with g++, then use the CPP_LIB_ATLAS. Basically, I'm using a mixture of 
 # libraries, so whichever linker I use must know which libraries of the 
 # other language to include. 
-FORTRAN_LIB_ATLAS = -L/home/shared/atlas/lib/ -llapack -lf77blas -lcblas -latlas -lstdc++
+FORTRAN_LIB_ATLAS = -llapack -lf77blas -lcblas -latlas -lstdc++
 
 CPP_LIB_ATLAS = -llapack -lgfortranbegin -lgfortran -lblas
 
@@ -26,12 +26,6 @@ CPPFLAGS = $(CFLAGS)
 EXECUTABLE_NAME = go
 
 PREPROCESSOR = -DDEBUG 
-
-# -DEXTENDED_FOCUS 
-#EXECUTABLE_NAME = go_cylinder
-#PREPROCESSOR = 
-#-DCYLINDER 
-#-DDEBUG
 
 all : main.cpp Runner.h OptimizeTransducer.h CircularPistonTransducer.h \
 CircularPistonTransducerElement.h TransducerElement.h ComputationalElement.h \
